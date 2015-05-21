@@ -1,0 +1,21 @@
+{
+    "name": "baileylo/open-graph",
+    "description": "Class that assists in building Open Graph meta tags",
+    "keywords": ["opengraph", "open graph", "ogp"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Logan Bailey",
+            "email": "logan@logansbailey.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Baileylo\\Ogp\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
