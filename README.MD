@@ -6,7 +6,9 @@ You can find the code example shown below in the `example` directory.
 
 Below is the code required to convert our 2 domain objects([Movie](https://github.com/PorticoInd/og-data/blob/master/example/Acme/Movie.php) and [Person](https://github.com/PorticoInd/og-data/blob/master/example/Acme/Person.php)) into HTML ready OGP data.
 
-```
+```php
+<?php
+
 use Acme\Movie;
 use Acme\Person;
 
@@ -35,7 +37,7 @@ foreach($properties as $property) {
 
 This will generate the following output:
 
-```
+```HTML
 <meta property="og:type" content="video.movie" />
 <meta property="video:duration" content="6480" />
 <meta property="video:release_date" content="2009-08-14T00:00:00-0700" />
